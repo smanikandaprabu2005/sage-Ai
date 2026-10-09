@@ -1,0 +1,14 @@
+{
+  "name": "mani",
+  "crop_type": "cotton",
+  "location": "sivakasi",
+  "soil_type": "black",
+  "farm_size": "3.0 acres (3.0 acres)",
+  "updated": "2026-05-03T18:09:43.062415",
+  "confidence": {
+    "crop_type": 0.95,
+    "location": 0.85,
+    "soil_type": 0.9,
+    "farm_size": 0.9
+  }
+}

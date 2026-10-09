@@ -1,0 +1,47 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Generated datasets and downloaded books
+data/books/
+data_pipeline/data/
+data_pipeline/data collection/
+data_pipeline/processed/
+data_pipeline/tokens/
+data_pipeline/tokenizer_corpus.txt
+tokens/
+
+# Trained models and generated model artifacts
+saved_models/
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+
+# Frontend dependencies and build output
+node_modules/
+ui/node_modules/
+dist/
+ui/dist/
+build/
+
+# Logs and local tooling
+logs/
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
